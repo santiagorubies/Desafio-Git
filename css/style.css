@@ -13,9 +13,7 @@
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "noticia1 noticia2 "
-      "noticia3 noticia4  "
-      "noticia5 noticia6"; 
+      "noticia1 noticia2 noticia3";
 }
 .noticia1 {
     grid-area: noticia1; 
@@ -27,18 +25,26 @@
     grid-area: noticia3;
 }
 
-header{
-    background-color: rgb(12, 12, 1);
+h1 {
+    color: darkblue;
+    padding: 1rem 0;
+}
+
+.seccionSuperior {
+    background-image: linear-gradient(rgb(12, 12, 1), rgb(255, 145, 0));
+}
+header {
     color: black;
     padding: 10px; 
     font-style: italic;
     font-family: 'Notable', sans-serif;
     }
-nav{
+nav {
     font-size: xx-large;
     font-style: italic;
-    background-color: rgb(255, 145, 0);
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 .hoy{
     text-align: center;
@@ -46,12 +52,23 @@ nav{
     font-weight: 900;
     font-size: 50px;
 }
-.imagenDolar{
+.noticiaPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenDolar {
     padding: 10px;
+    width: 200px;
+    height: 110px;
+    transition: ease 3s;
+}
+.imagenDolar:hover {
     width: 500px;
     height: 300px;
 }
-.p{
+.pieFotoNoticiaPrincipal{
     color: red;
     padding: 5px;
 }
