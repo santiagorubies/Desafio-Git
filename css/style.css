@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footerContainer { 
+    display: flex;
+    justify-content: space-evenly; 
+}
+.containerNoticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "noticia1 noticia2 "
+      "noticia3 noticia4  "
+      "noticia5 noticia6"; 
+}
+.noticia1 {
+    grid-area: noticia1; 
+}
+.noticia2 {
+    grid-area: noticia2;
+}
+.noticia3 {
+    grid-area: noticia3;
+}
+
+header{
+    background-color: rgb(12, 12, 1);
+    color: black;
+    padding: 10px; 
+    font-style: italic;
+    font-family: 'Notable', sans-serif;
+    }
+nav{
+    font-size: xx-large;
+    font-style: italic;
+    background-color: rgb(255, 145, 0);
+    padding: 10px;
+}
+.hoy{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 50px;
+}
+.imagenDolar{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.p{
+    color: red;
+    padding: 5px;
+}
+.ultimasNoticias{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+ul li{
+    color: black;
+    font-size: large;
+    font-style: inherit;
+    
+}
+
+
+main h3{
+    font-style: italic;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-indent: 5px;
+} 
+
+li{
+    text-decoration: none;
+    color: black;
+}
+
+.deportes{
+    color:rgb(12, 12, 1) ;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+.subTitulo1{
+    color: black;
+    font-style: italic;  
+    text-decoration: none;
+    font-size: xx-large;
+    background-color: lightsteelblue;
+}
+.subTitulo2{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-size: xx-large;
+    background-color: lightsteelblue;
+}
+.subTitulo3{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-size: xx-large;
+    background-color: lightsteelblue;
+
+}
+.economia{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+
+}
+.dolarBlue{
+    color: black;
+    background-color: lightsteelblue ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.subTitulo4{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.inflacion{
+    color: black;
+    background-color: lightsteelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.p2{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.cultura{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.subTitulo5{
+    color: black;
+    background-color: lightsteelblue;
+    font-size: xx-large;
+}
+.subTitulo6{
+    color: black;
+    background-color: lightsteelblue;
+    font-size: xx-large;
+}
+.subTitulo7{
+    color: black;
+    background-color: lightsteelblue;
+    font-size: xx-large;
+}
+.p3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.p4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.p5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.contacto{
+    text-align: center;
+    font-size: 50px;
+}
+.imagenPatronato{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.pDeportes{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.pDeportes2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.pDeportes3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
+.imagenAsesinato{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenTata{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenDolar2{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenInflacion{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenKiss{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenLgante{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.imagenAccidente{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
