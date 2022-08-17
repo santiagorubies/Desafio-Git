@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/style.css">
     <title>deportes</title>
 
@@ -17,36 +20,59 @@
    
 </head>
 <body>
-    <header><h1>DIARIO EL NORTE</h1></header>
-    
-    <nav>
-        <a href="index.html">inicio</a>
-        <a href="deportes.html">deportes</a>
-        <a href="economia.html">economia</a>
-        <a href="cultura.html">cultura</a>
-        <a href="contacto.html">contacto</a>
-    </nav>
+    <header class="bg-secondary container"><h1>DIARIO EL NORTE</h1></header>
+    <nav class="row bg-secondary" aria-label="Page navigation example">
+        <ul class="col-6 pagination">
+          <li class="page-item"><a class="page-link" href="index.html">Inicio</a></li>
+          <li class="page-item"><a class="page-link" href="deportes.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="economia.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="cultura.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="contacto.html">4</a></li>
+        </ul>
+      </nav>
+
     <br><br>
     <H2 class="deportes">DEPORTES</H2>
     <hr>
      <main>
-        <div>
-            <br><br><br><br><br>
-            <h2><a class="subTitulo1" href="deportes-nota.html">Asesinaron a un futbolista de Berazategui en un intento de asalto</a></h2>
-          <br>
-             <p class="pDeportes">Un futbolista del Club Berazategui que ademas trabaja como chofer de Uber fue asesinado de un balazo en la cabeza por delincuentes que habrian intentado robarle el auto en la localidad bonaerense de Villa San Petersburgo</p>
-            <img class="imagenAsesinato" src="img/asesinato.jpg" alt="imagenAsesinato">
-            <br><br><br><br><br><br>
-            <h2><a class="subTitulo2"  href="deportes-nota2.html">Patronato vencio a Central Cordoba en un duelo clave por la permanencia</a></h2>
-            <br> 
-            <p class="pDeportes2">El patron le gano 3-1 al Ferroviario por la fecha 8 de la liga profesional y sueña con mantenerse en primera</p>
-            <img class="imagenPatronato" src="img/patronato-centralcordoba.jpg" alt="imagenPatronato">
-            <br><br><br><br><br><br>
-             <h2><a class="subTitulo3" href="deportes-nota3.html">Riquelme quiere al tata Martino como dt de Boca</a></h2>
-            <br> 
-          <p class="pDeportes3">Confirman que luego del mundial de Qatar, el entrenador de la seleccion de Mexico no seguira al mando de la tri y podria recalar en Boca, donde ya habria dado el visto bueno para regresar a Argentina</p>
-            <img class="imagenTata" src="img/tatamartino.jpg" alt="imagenTata">
-        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/patronato-centralcordoba.jpg" class="d-block w-100" alt="imagenPatronato">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Patronato vencio a Central Cordoba</h5>
+                  <p>El patron le gano 3-1 al ferroviario por la fecha 8</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/asesinato.jpg" class="d-block w-100" alt="AsesinatoFutbol">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Asesinaron a un futbolista de berazategui</h5>
+                  <p>Fue asesinado de un balazo en la cabeza por delincuentes</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/tatamartino.jpg" class="d-block w-100" alt="tataMartino">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Riquelme quiere al tata</h5>
+                  <p>Riquelme quiere al tata Martino como dt de Boca</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
 
 
@@ -56,8 +82,8 @@
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
-        <h2>seguinos en redes</h2>
-        <ul>
+        <h2>SEGUINOS EN REDES</h2>
+        <ul class="footerContainer">
             <li><a href="https://www.facebook.com/"target=_blank>facebook</a></li>
             <li><a href="https://www.instagram.com/"target=_blank>instagram</a></li>
             <li><a href="https://twitter.com/"target=_blank>twitter</a></li>
@@ -66,7 +92,8 @@
 
 
 
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 
