@@ -5,9 +5,15 @@
 
 .footerContainer { 
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70%;
 }
 .containerNoticias {
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
@@ -65,6 +71,17 @@ nav {
     transition: ease 3s;
 }
 .imagenDolar:hover {
+    width: 500px;
+    height: 300px;
+}
+.imagenBatakis{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    transition: linear 2s;
+}
+.imagenBatakis:hover{
     width: 500px;
     height: 300px;
 }
@@ -207,6 +224,16 @@ li{
     text-align: center;
     font-size: 50px;
 }
+.formContacto{
+    font-size: 130%;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.seguinosEnRedes{
+    background-color: black;
+    color: aliceblue;
+}
 .imagenPatronato{
     padding: 10px;
     width: 500px;
@@ -268,4 +295,9 @@ li{
 .formContacto{
     margin: 10px;
     padding: 10px;
+}
+@media (max-width: 412px;){
+    .seccionSuperior{
+        background-color: aqua;
+    }
 }
