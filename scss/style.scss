@@ -1,0 +1,13 @@
+@import "./component/index";
+@import "./component/economia";
+@import "./component/deportes";
+@import "./component/contacto";
+@import "./component/cultura";
+*{
+    padding: 0;
+    margin: 0;
+}
+.seguinosEnRedes{
+    background-color: black;
+    color: aliceblue;
+}

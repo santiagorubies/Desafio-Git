@@ -1,0 +1,113 @@
+.footerContainer { 
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70%;
+}
+.containerNoticias {
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "noticia1 noticia2 noticia3";
+}
+.noticia1 {
+    grid-area: noticia1; 
+}
+.noticia2 {
+    grid-area: noticia2;
+}
+.noticia3 {
+    grid-area: noticia3;
+}
+
+h1 {
+    color: darkblue;
+    padding: 1rem 0;
+}
+.seccionSuperior {
+    background-image: linear-gradient(rgb(12, 12, 1), rgb(255, 145, 0));
+}
+.seccionSuperior {
+    background-image: linear-gradient(rgb(12, 12, 1), rgb(255, 145, 0));
+}
+header {
+    color: black;
+    padding: 10px; 
+    font-style: italic;
+    font-family: 'Notable', sans-serif;
+    }
+nav {
+    font-size: xx-large;
+    font-style: italic;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.hoy{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 50px;
+}
+.noticiaPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenDolar {
+    padding: 10px;
+    width: 200px;
+    height: 110px;
+    transition: ease 3s;
+}
+.imagenDolar:hover {
+    width: 500px;
+    height: 300px;
+}
+.imagenBatakis{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    transition: linear 2s;
+}
+.imagenBatakis:hover{
+    width: 500px;
+    height: 300px;
+}
+.pieFotoNoticiaPrincipal{
+    color: red;
+    padding: 5px;
+}
+.ultimasNoticias{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+ul li{
+    color: black;
+    font-size: large;
+    font-style: inherit;
+    
+}
+
+
+main h3{
+    font-style: italic;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-indent: 5px;
+} 
+
+li{
+    text-decoration: none;
+    color: black;
+}
