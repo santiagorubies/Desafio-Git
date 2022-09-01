@@ -3,6 +3,8 @@
 @import "./component/deportes";
 @import "./component/contacto";
 @import "./component/cultura";
+@import "./base/variables";
+@import "./base/mapas";
 *{
     padding: 0;
     margin: 0;
@@ -10,4 +12,11 @@
 .seguinosEnRedes{
     background-color: black;
     color: aliceblue;
+}
+.ultimasNoticias{
+    color: map-get($map: $standar, $key:color-standar );
+    background-color: map-get($map: $standar, $key:bg-standar );
+}
+h1{
+    @include medidas (150px, 200px)
 }
