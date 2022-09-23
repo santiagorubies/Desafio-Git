@@ -1,1 +1,9 @@
-
+$standar: (
+    color-standar: black,
+    bg-standar: white,
+    border-standar: 2px solid black,
+);
+@mixin medidas ($width, $height){
+    width: $width;
+    height: $height;
+}

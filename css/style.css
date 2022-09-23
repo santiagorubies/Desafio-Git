@@ -26,7 +26,8 @@
 
 h1 {
   color: darkblue;
-  padding: 1rem 0; }
+  text-align: center;
+  padding: 5px; }
 
 .seccionSuperior {
   background-image: linear-gradient(#0c0c01, #ff9100); }
@@ -56,7 +57,6 @@ nav {
 .noticiaPrincipal {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center; }
 
 .imagenDolar {
@@ -84,7 +84,7 @@ nav {
   color: red;
   padding: 5px; }
 
-.ultimasNoticias {
+.ultimasNoticias2 {
   color: black;
   text-align: center;
   font-size: 50px;
@@ -282,3 +282,11 @@ li {
 .seguinosEnRedes {
   background-color: black;
   color: aliceblue; }
+
+.ultimasNoticias {
+  color: black;
+  background-color: white; }
+
+h1 {
+  width: 150px;
+  height: 200px; }

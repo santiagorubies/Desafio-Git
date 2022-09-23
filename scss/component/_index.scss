@@ -28,7 +28,8 @@
 
 h1 {
     color: darkblue;
-    padding: 1rem 0;
+    text-align: center;
+    padding: 5px;
 }
 .seccionSuperior {
     background-image: linear-gradient(rgb(12, 12, 1), rgb(255, 145, 0));
@@ -58,7 +59,6 @@ nav {
 .noticiaPrincipal {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 .imagenDolar {
@@ -86,8 +86,8 @@ nav {
     color: red;
     padding: 5px;
 }
-.ultimasNoticias{
-    color: black;
+.ultimasNoticias2{
+    color: map-get($standar, color-standar );
     text-align: center;
     font-size: 50px;
     font-weight: bold;

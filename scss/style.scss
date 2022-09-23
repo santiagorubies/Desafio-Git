@@ -1,9 +1,9 @@
+@import "./base/variables";
 @import "./component/index";
 @import "./component/economia";
 @import "./component/deportes";
 @import "./component/contacto";
 @import "./component/cultura";
-@import "./base/variables";
 @import "./base/mapas";
 *{
     padding: 0;
@@ -14,7 +14,7 @@
     color: aliceblue;
 }
 .ultimasNoticias{
-    color: map-get($map: $standar, $key:color-standar );
+    color: map-get($standar, color-standar );
     background-color: map-get($map: $standar, $key:bg-standar );
 }
 h1{
